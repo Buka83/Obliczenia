@@ -12,6 +12,10 @@
         <RadioButton x:Name="rk_1" GroupName ="rk" Content="1 przewodowe" HorizontalAlignment="Left" Margin="19,83,0,0" VerticalAlignment="Top"/>
         <RadioButton x:Name="rk_2" GroupName ="rk" Content="wielo przewodowe" HorizontalAlignment="Left" Margin="19,98,0,0" VerticalAlignment="Top" IsChecked="True"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="19,63,0,0" TextWrapping="Wrap" Text="Rodzaje kabli" VerticalAlignment="Top" RenderTransformOrigin="-0.49,1.5"/>
+        <ListBox x:Name ="lista_typow" HorizontalAlignment="Left" Height="371" Margin="154,10,0,0" VerticalAlignment="Top" Width="109" SelectionChanged="Lista_typow_SelectionChanged"/>
+        <ListBox x:Name ="lista_il_zyl" HorizontalAlignment="Left" Height="371" Margin="268,10,0,0" VerticalAlignment="Top" Width="35" SelectionChanged="Lista_il_zyl_SelectionChanged"/>
+        <ListBox x:Name="lista_przekroje" HorizontalAlignment="Left" Height="371" Margin="308,10,0,0" VerticalAlignment="Top" Width="59" SelectionChanged="Lista_przekroje_SelectionChanged"/>
+        <ListBox x:Name="lista_sytuacja" HorizontalAlignment="Left" Height="179" Margin="372,10,0,0" VerticalAlignment="Top" Width="112"/>
 
     </Grid>
 </Window>
